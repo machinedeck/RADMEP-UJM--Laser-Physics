@@ -11,7 +11,8 @@ Laser, which stands for **L**ight **A**mplification by **S**timulated **E**missi
 This is typically achieved with a light source and gain medium to generate emission activities inside an optical cavity of two mirrors on both sides. Each of them are either partially or fully reflected so that there are secondary photons for stimulated emission and aperture for the coherent amplified light to pass. However, there are important factors to consider as well (e.g. temperature, current) to make sure that there is _**population inversion**_, i.e. there are more electrons in the higher states. Otherwise, it is almost impossible to have stimulated emission.
 
 This experiment used a diode laser and Nd:YAG as light source and gain medium, respectively. In the attached Jupyter notebook, `YAG_laser_activity.ipynb`, data analysis was performed to:
-- **First**, study the threshold current characteristics of the laser diode. This employs a diode much like an LED, but lasing effect is not achieved without a surplus of electrons in the higher energy states for stimulated emission. The light is not amplified and coherent. Hence, increasing the laser diode's current injects more electrons available for stimulated emission, until the electron's population is sufficient enough to manifest lasing. 
+- **First**, study the threshold current characteristics of the laser diode at room temperature, 25&deg;C. This employs a diode much like an LED, but lasing effect is not achieved without a surplus of electrons in the higher energy states for stimulated emission. The light is not amplified and coherent. Hence, increasing the laser diode's current injects more electrons available for stimulated emission, until the electron's population is sufficient enough to manifest lasing.
+- **Second**, study the absorption characteristics of Nd:YAG at different temperatures
 
 
 
